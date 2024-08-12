@@ -38,13 +38,12 @@ const texts = [
   'Ты звездочёткинка!',
 ]
 
-// happy and funny smileys
 const smileys = [
   '😊',
   '😃',
 ]
 
-function getAlert() {
+function getHappyText() {
   const text = texts[Math.floor(Math.random() * texts.length)]
   const smiley = smileys[Math.floor(Math.random() * smileys.length)]
   return `${text} ${smiley}`
@@ -64,7 +63,7 @@ function getAlert() {
     color: mediumpurple;
     font-size: 44px;
   "
-  @click="WebApp.showAlert(getAlert())"
+  @click="WebApp.showAlert(getHappyText())"
 >
   Привет, {{ WebApp.initDataUnsafe.user?.first_name }}!
   <br/>
