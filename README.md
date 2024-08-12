@@ -1,7 +1,8 @@
 # Telegram Mini App Demo
 
-[https://docs.ton.org/develop/dapps/telegram-apps/app-examples#modern-twa-example](https://docs.ton.org/develop/dapps/telegram-apps)
+[What are Mini Apps](https://docs.ton.org/develop/dapps/telegram-apps/app-examples)
 
+[Step-By-Step Guide](https://docs.ton.org/develop/dapps/telegram-apps/step-by-step-guide)
 
 ## Setup
 
