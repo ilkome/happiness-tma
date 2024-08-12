@@ -58,12 +58,17 @@ function getAlert() {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    overflow: hidden;
+    overflow-y: auto;
     text-align: center;
     color: mediumpurple;
     font-size: 44px;
   "
   @click="WebApp.showAlert(getAlert())"
 >
+  Привет, {{ WebApp.initDataUnsafe.user?.first_name }}!
+  <br/>
+  <br/>
   Жмякай<br/>куда<br/>угодно!
 </div>
 </template>
